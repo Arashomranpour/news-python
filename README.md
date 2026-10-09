@@ -32,7 +32,7 @@ cd news-python
 pip install requests
 ```
 
-Put your key in `news.py` (`api_key = "..."`, preferably loaded from an environment variable), then:
+Export your key as `NEWSAPI_KEY`, then:
 
 ```bash
 python news.py            # general news

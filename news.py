@@ -1,7 +1,7 @@
 import requests as re
 from sys import argv
 
-api_key = "b268dcd9bda8413891e9a540ae9d1217"
+api_key = os.getenv("NEWSAPI_KEY")
 url = "https://newsapi.org/v2/top-headlines?"
 
 
